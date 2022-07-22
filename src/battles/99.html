@@ -1,0 +1,50 @@
+<div class="container">
+  <div class="top"></div>
+  <div class="mid"></div>
+  <div class="bot"></div>
+</div>
+<div class="container flip">
+  <div class="top"></div>
+  <div class="mid"></div>
+  <div class="bot"></div>
+</div>
+<style>
+  body {
+    background: #ac474b;
+    margin: 0;
+  }
+  div {
+    position: absolute;
+  }
+  .container {
+    right: 50%;
+    width: 50%;
+    height: 200px;
+    bottom: 50px;
+  }
+  .top {
+    right: -5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 30px 30px 0 30px;
+    border: 10px solid #ffffff;
+  }
+  .mid {
+    right: 10px;
+    top: 60px;
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+  }
+  .bot {
+    right: 10px;
+    bottom: 0;
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+  }
+  .flip {
+    right: 0;
+    transform: scaleX(-1);
+  }
+</style>

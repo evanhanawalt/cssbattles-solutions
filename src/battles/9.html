@@ -1,0 +1,50 @@
+<div class="center"></div>
+<div class="diamond"></div>
+<div class="diamond2"></div>
+<div class="rect"></div>
+<style>
+  .rect {
+    z-index: 80;
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: #4caab3;
+  }
+  .diamond2 {
+    z-index: 85;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    background: #222730;
+  }
+  .diamond {
+    z-index: 90;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    background: #4caab3;
+  }
+  .center {
+    z-index: 100;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: #393e46;
+  }
+  body {
+    background: #222730;
+  }
+</style>

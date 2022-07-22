@@ -1,0 +1,42 @@
+<div class="middle"></div>
+<div class="blue">
+  <div class="corner"></div>
+</div>
+<style>
+  body {
+    margin: 0;
+    background: #191919;
+  }
+  div {
+    position: absolute;
+  }
+  .middle {
+    overflow: hidden;
+    transform: translate(-50%, -50%) rotate(-135deg);
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    background: #f9e492;
+    border-radius: 100%;
+  }
+
+  .blue {
+    bottom: 0;
+    transform: translate(-50%, 50%) rotate(45deg);
+    left: 50%;
+    width: 199px;
+    height: 199px;
+    background: #4f77ff;
+    overflow: hidden;
+  }
+
+  .corner {
+    width: 200px;
+    height: 200px;
+    background: #191919;
+    border-radius: 100%;
+    left: -106px;
+    top: -106px;
+  }
+</style>

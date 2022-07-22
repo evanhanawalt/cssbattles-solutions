@@ -1,0 +1,67 @@
+<div class="l-eye">
+  <div class="pupil"></div>
+</div>
+<div class="r-eye">
+  <div class="pupil"></div>
+</div>
+<div class="nose"></div>
+
+<style>
+  body {
+    margin: 0;
+    background: #191919;
+  }
+  div {
+    position: absolute;
+  }
+  .l-eye {
+    width: 90px;
+    height: 90px;
+    border-radius: 0 90px 90px 90px;
+    border: 12px solid #e08027;
+    left: 89px;
+    top: 77px;
+    background: #e08027;
+  }
+  .r-eye {
+    width: 90px;
+    height: 90px;
+    border-radius: 90px 0 90px 90px;
+    border: 12px solid #e08027;
+    right: 89px;
+    top: 77px;
+    outline: 10px solid #191919;
+    background: #e08027;
+  }
+  .r-eye::before,
+  .l-eye::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background: #191919;
+    border-radius: 100%;
+  }
+
+  .pupil {
+    transform: translateX(-50%);
+    bottom: 39px;
+    left: 50%;
+    width: 12px;
+    height: 6px;
+    border-radius: 100px 100px 0 0;
+    border: 9px solid #e08027;
+    border-bottom: none;
+    z-index: 10;
+  }
+  .nose {
+    z-index: -10;
+    width: 52px;
+    height: 40px;
+    background: #e08027;
+    transform: rotate(45deg);
+    top: 170px;
+    left: 170px;
+  }
+</style>

@@ -1,0 +1,38 @@
+<div class="circle">
+  <div class="inner"></div>
+</div>
+<div class="line"></div>
+<style>
+  body {
+    background: #19191a;
+    margin: 0;
+  }
+  div {
+    position: absolute;
+  }
+  .circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    overflow: hidden;
+    background: #4f77ff;
+    transform: translateX(-50%);
+    top: 50px;
+    left: 50%;
+  }
+  .inner {
+    width: 75px;
+    height: 75px;
+    background: #9ad5ff;
+    bottom: 0;
+    left: 0;
+  }
+  .line {
+    width: 75px;
+    height: 120px;
+    background: #f9e492;
+    z-index: -1;
+    bottom: 50px;
+    right: 50%;
+  }
+</style>

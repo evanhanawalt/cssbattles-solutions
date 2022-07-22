@@ -1,0 +1,78 @@
+<div class="mid"></div>
+<div class="stick1"></div>
+<div class="stick2"></div>
+<div class="right"></div>
+<div class="l a"></div>
+<div class="l b"></div>
+<div class="l c"></div>
+<style>
+  body {
+    margin: 0;
+    background: #161616;
+  }
+  div {
+    position: absolute;
+  }
+  .l {
+    height: 12px;
+    background: #fff;
+    border-radius: 0 0 0 12px;
+  }
+  .a {
+    right: 215px;
+    width: 55px;
+    top: 132px;
+  }
+  .b {
+    right: 215px;
+    width: 40px;
+    top: 144px;
+  }
+  .c {
+    right: 215px;
+    width: 25px;
+    top: 156px;
+  }
+
+  .mid {
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    background: #161616;
+    border-radius: 100%;
+    border: 5px solid #a22015;
+    outline: 10px solid #ffffff;
+    box-shadow: 0 0 0 15px #a22015;
+  }
+  .right {
+    z-index: -9;
+    left: 50%;
+    top: 149px;
+    transform: translateY(-50%);
+    width: 80px;
+    height: 40px;
+    background: #e96a23;
+    border-radius: 0 40px 5px 0;
+  }
+  .stick2 {
+    z-index: -9;
+    top: 50%;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 30px;
+    height: 53px;
+    border-radius: 0 0 10px 10px;
+    background: #a22015;
+  }
+  .stick1 {
+    z-index: -10;
+    top: 50%;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 20px;
+    height: 50%;
+    background: #e96a23;
+  }
+</style>

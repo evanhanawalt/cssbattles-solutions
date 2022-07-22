@@ -1,0 +1,41 @@
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<style>
+  body {
+    background: #191919;
+  }
+  div {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    top: 122px;
+    position: absolute;
+    border: 20px solid #8f8f8f;
+  }
+  div:nth-child(1) {
+    left: 37px;
+    border-color: #714b67;
+  }
+  div:nth-child(2) {
+    left: 119px;
+  }
+  div:nth-child(2)::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 60px;
+    background: #8f8f8f;
+    left: 40px;
+    bottom: 20px;
+    border-radius: 10px 10px 0 0;
+  }
+  div:nth-child(3) {
+    left: 201px;
+  }
+  div:nth-child(4) {
+    left: 283px;
+  }
+</style>

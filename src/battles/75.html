@@ -1,0 +1,74 @@
+<div class="ear"></div>
+<div class="ear ear-r"></div>
+<div class="head"></div>
+<div class="snout"></div>
+<div class="nose"></div>
+<div class="nose nose-r"></div>
+<div class="eye"></div>
+<div class="eye eye-r"></div>
+<style>
+  body {
+    background: #191919;
+    margin: 0;
+  }
+  div {
+    position: absolute;
+  }
+  .head {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 130px;
+    height: 150px;
+    background: #fe5f55;
+    border-radius: 60px 60px 0 0;
+  }
+  .snout {
+    transform: translateX(-50%);
+    left: 50%;
+    top: 145px;
+    width: 150px;
+    height: 100px;
+    border-radius: 60px 60px 50px 50px;
+    background: #a64942;
+  }
+  .eye {
+    background: #000000;
+    left: 160px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    top: 125px;
+  }
+  .eye-r {
+    left: 230px;
+  }
+  .nose {
+    width: 30px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000000;
+    top: 170px;
+    left: 145px;
+    transform: rotate(-45deg);
+  }
+  .nose-r {
+    transform: rotate(45deg);
+    left: 225px;
+  }
+  .ear {
+    z-index: -1;
+    background: #000000;
+    border: 5px solid #fe5f55;
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    top: 75px;
+    left: 145px;
+    transform: rotate(45deg);
+  }
+  .ear-r {
+    transform: rotate(-45deg);
+    left: 225px;
+  }
+</style>

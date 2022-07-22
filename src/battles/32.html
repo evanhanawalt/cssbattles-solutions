@@ -1,0 +1,40 @@
+<div>
+  <span class="mid"></span>
+  <span class="orng"></span>
+  <span class="grn"></span>
+</div>
+<style>
+  .grn {
+    background: #a3a368;
+    height: 200px;
+    width: 50px;
+  }
+  .orng {
+    background: #f3ac3c;
+    height: 50px;
+    width: 200px;
+  }
+  .mid {
+    z-index: 10;
+    width: 50px;
+    height: 50px;
+    background: #fbe18c;
+  }
+  span {
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    left: 50%;
+  }
+  div {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    top: 50%;
+    left: 50%;
+  }
+  body {
+    margin: 0;
+  }
+</style>

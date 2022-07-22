@@ -1,0 +1,53 @@
+<div class="b"></div>
+<div class="a"></div>
+<div class="swirl1"></div>
+
+<div class="left"></div>
+<div class="swirl2"></div>
+<style>
+  .swirl2 {
+    position: absolute;
+    width: 95%;
+    height: 50%;
+    top: 50%;
+    left: 5%;
+    background: #c36271;
+    border-radius: 100px 0 0 0;
+  }
+  .left {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    background: #f2e09f;
+  }
+  .swirl1 {
+    position: absolute;
+    height: 50%;
+    width: 95%;
+    background: #f2e09f;
+    border-radius: 0 0 100px 0;
+  }
+  div.a,
+  div.b {
+    z-index: 10;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 150px;
+  }
+  .a {
+    top: 150px;
+    border-radius: 0 0 50px 50px;
+    background: #f2e09f;
+  }
+  .b {
+    top: 100px;
+    border-radius: 50px 50px 0 0;
+    background: #c36271;
+  }
+
+  body {
+    margin: 0;
+    background: #c36271;
+  }
+</style>

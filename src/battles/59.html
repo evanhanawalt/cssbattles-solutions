@@ -1,0 +1,70 @@
+<div class="line1"></div>
+<div class="line2"></div>
+<div class="line3"></div>
+<div class="center"></div>
+<div class="r"></div>
+<div class="l"></div>
+<div class="m"></div>
+<style>
+  body {
+    margin: 0;
+    background: #191919;
+  }
+  div {
+    position: absolute;
+  }
+  .center {
+    z-index: -100;
+    background: #4f77ff;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+  }
+
+  .m {
+    transform: translatex(-50%);
+    left: 50%;
+    width: 10px;
+    height: 300px;
+    background: #191919;
+  }
+  .r {
+    transform: translateY(-50%);
+    top: 50%;
+    left: 35px;
+    height: 190px;
+    width: 190px;
+    border-radius: 100%;
+    border: 10px solid #191919;
+  }
+  .l {
+    transform: translateY(-50%);
+    top: 50%;
+    right: 35px;
+    height: 190px;
+    width: 190px;
+    border-radius: 100%;
+    border: 10px solid #191919;
+  }
+  .line1 {
+    background: #191919;
+    width: 300px;
+    height: 10px;
+    top: 145px;
+  }
+  .line2 {
+    background: #191919;
+    width: 300px;
+    height: 10px;
+    top: 105px;
+  }
+  .line3 {
+    background: #191919;
+    width: 300px;
+    height: 10px;
+    top: 185px;
+  }
+</style>

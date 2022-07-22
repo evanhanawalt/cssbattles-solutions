@@ -1,0 +1,89 @@
+<div class="head">
+  <div class="eye"></div>
+  <div class="eye e-r"></div>
+</div>
+<div class="tusks"></div>
+<div class="trunk"></div>
+<div class="ear">
+  <div class="inner-l"></div>
+</div>
+<div class="ear right">
+  <div class="inner-r"></div>
+</div>
+<style>
+  body {
+    margin: 0;
+    background: #998235;
+  }
+  div {
+    position: absolute;
+  }
+  .ear {
+    z-index: -10;
+    background: #1a4341;
+    top: 60px;
+    height: 180px;
+    width: 80px;
+    border-radius: 100%;
+    left: 50px;
+    overflow: hidden;
+  }
+  .inner-l {
+    height: 180px;
+    width: 80px;
+    border-radius: 100%;
+    background: #0b2429;
+    right: -16px;
+  }
+  .inner-r {
+    height: 180px;
+    width: 80px;
+    border-radius: 100%;
+    background: #0b2429;
+    left: -16px;
+  }
+  .right {
+    left: 270px;
+  }
+  .eye {
+    width: 20px;
+    height: 10px;
+    background: #0b2429;
+    border-radius: 0 0 20px 20px;
+    top: 50%;
+    left: 40px;
+    border: 10px solid #998235;
+    border-top: none;
+  }
+  .e-r {
+    left: 100px;
+  }
+  .tusks {
+    transform: translateX(-50%);
+    left: 50%;
+    width: 80px;
+    height: 40px;
+    border-radius: 60px 60px 0 0;
+    border: 20px solid white;
+    border-bottom: none;
+    bottom: 50px;
+  }
+  .trunk {
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 0;
+    width: 40px;
+    height: 120px;
+    background: #0b2429;
+    border-radius: 20px 20px 0 0;
+  }
+  .head {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 180px;
+    height: 180px;
+    background: #1a4341;
+    border-radius: 100%;
+  }
+</style>

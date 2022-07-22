@@ -1,0 +1,58 @@
+<div class="box tl">
+  <div class="circle"></div>
+</div>
+<div class="box tr">
+  <div class="circle"></div>
+</div>
+<div class="box bl">
+  <div class="circle"></div>
+</div>
+<div class="box br">
+  <div class="circle"></div>
+</div>
+<div class="mid"></div>
+<style>
+  body {
+    margin: 0;
+    background: #191919;
+  }
+  div {
+    position: absolute;
+  }
+  .mid {
+    transform: translate(-50%, -50%);
+    top: 149px;
+    left: 201px;
+    border: 10px solid #5dbcf9;
+    width: 50px;
+    height: 50px;
+  }
+  .box {
+    width: 50%;
+    height: 50%;
+  }
+  .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px 50px 0 50px;
+    border: 10px solid #5dbcf9;
+    bottom: 26px;
+    right: 24px;
+  }
+  .tl {
+    right: 50%;
+  }
+  .tr {
+    left: 202px;
+    transform: rotateY(180deg);
+  }
+  .br {
+    left: 202px;
+    transform: rotate(180deg);
+    bottom: 2px;
+  }
+  .bl {
+    transform: rotateX(180deg);
+    bottom: 2px;
+  }
+</style>

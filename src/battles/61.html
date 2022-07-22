@@ -1,0 +1,78 @@
+<div class="box v">
+  <div class="l"></div>
+  <div class="r"></div>
+  <div class="c v"></div>
+  <div class="top v"></div>
+  <div class="mid v"></div>
+</div>
+<div class="lineb v"></div>
+<div class="linet v"></div>
+<style>
+  body {
+    margin: 0;
+    background: #191919;
+  }
+  div {
+    position: absolute;
+  }
+  .top {
+    width: 30px;
+    height: 20px;
+    top: 66px;
+    border: 10px solid #5dbcf9;
+  }
+  .mid {
+    width: 80px;
+    height: 50px;
+    top: 96px;
+    border: 10px solid #5dbcf9;
+    border-bottom: none;
+  }
+  .l {
+    width: 80px;
+    height: 80px;
+    border: 10px solid #5dbcf9;
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(-30deg);
+    left: 139px;
+    top: 142px;
+  }
+  .r {
+    width: 80px;
+    height: 80px;
+    border: 10px solid #5dbcf9;
+    border-bottom: none;
+    border-left: none;
+    transform: rotate(30deg);
+    right: 139px;
+    top: 142px;
+  }
+  .c {
+    height: 60px;
+    width: 10px;
+    bottom: 0;
+    background: #5dbcf9;
+  }
+  .box {
+    width: 100%;
+    height: 194px;
+    overflow: hidden;
+  }
+  .lineb {
+    background: #5dbcf9;
+    width: 110px;
+    height: 10px;
+    bottom: 66px;
+  }
+  .linet {
+    background: #5dbcf9;
+    width: 200px;
+    height: 10px;
+    bottom: 86px;
+  }
+  .v {
+    transform: translateX(-50%);
+    left: 50%;
+  }
+</style>

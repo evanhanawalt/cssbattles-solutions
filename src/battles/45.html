@@ -1,0 +1,85 @@
+<div class="bgl"></div>
+<div class="bgr"></div>
+<div class="mid"></div>
+<div class="tbl"></div>
+<div class="tbr"></div>
+<div class="l"></div>
+<div class="r"></div>
+<style>
+  body {
+    background: #f3ac3c;
+    margin: 0;
+  }
+  div {
+    position: absolute;
+  }
+  .l {
+    height: 300px;
+    width: 65px;
+    background: #1a4341;
+  }
+  .r {
+    height: 300px;
+    width: 65px;
+    background: #1a4341;
+    right: 0;
+  }
+  .tbl {
+    background: #1a4341;
+    width: 30px;
+    height: 120px;
+    right: 215px;
+    border-left: 30px solid #998235;
+    border-bottom: 30px solid #998235;
+  }
+  .tbl:before {
+    background: none;
+    z-index: -1;
+    border: 30px solid #1a4341;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: -60px;
+    right: 0px;
+    bottom: -60px;
+  }
+  .tbr {
+    background: #1a4341;
+    width: 30px;
+    height: 120px;
+    left: 215px;
+    border-right: 30px solid #998235;
+    border-bottom: 30px solid #998235;
+  }
+  .tbr:before {
+    background: none;
+    z-index: -1;
+    border: 30px solid #1a4341;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: -60px;
+    bottom: -60px;
+  }
+  .bgl {
+    left: 65px;
+    bottom: 0;
+    width: 120px;
+    height: 30px;
+    background: #998235;
+    border-top: 30px solid #1a4341;
+    border-bottom: 30px solid #1a4341;
+  }
+  .bgr {
+    right: 65px;
+    bottom: 0;
+    width: 120px;
+    height: 30px;
+    background: #998235;
+    border-top: 30px solid #1a4341;
+    border-bottom: 30px solid #1a4341;
+  }
+</style>

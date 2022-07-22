@@ -1,0 +1,42 @@
+<div class="c"></div>
+<div class="b"></div>
+<div class="a"></div>
+<style>
+  div.a {
+    z-index: 10;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background: #6592cf;
+  }
+  div.b {
+    z-index: 0;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 150px;
+    background: #243d83;
+  }
+  div.c {
+    z-index: 100;
+    border: 50px solid #243d83;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    background: #eeb850;
+    border-radius: 100%;
+  }
+  body {
+    margin: 0;
+    background: #6592cf;
+  }
+</style>

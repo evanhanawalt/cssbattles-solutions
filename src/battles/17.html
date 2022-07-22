@@ -1,0 +1,51 @@
+<div class="dot d1"></div>
+<div class="dot d2"></div>
+<div class="pink p1"></div>
+<div class="pink p2"></div>
+<div class="connector"></div>
+<style>
+  .connector {
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    left: 50%;
+    background: #e78481;
+  }
+  .p2 {
+    left: 220px;
+  }
+  .p1 {
+    left: 100px;
+  }
+  .pink {
+    position: absolute;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 10px solid #e78481;
+    top: 50%;
+  }
+  .d2 {
+    top: 203px;
+  }
+  .d1 {
+    top: 97px;
+  }
+  .dot {
+    z-index: 10;
+    border-radius: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    left: 50%;
+    height: 60px;
+    width: 60px;
+    background: #f5bb9c;
+    border: 10px solid #09042a;
+  }
+  body {
+    background: #09042a;
+  }
+</style>

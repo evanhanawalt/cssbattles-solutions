@@ -1,0 +1,37 @@
+<div class="outer">
+  <div class="inner"></div>
+</div>
+<div class="outer a">
+  <div class="inner"></div>
+</div>
+<div class="outer b">
+  <div class="inner"></div>
+</div>
+<style>
+  .a {
+    transform: rotate(90deg) translate(10px);
+    transform-origin: 150%;
+  }
+  .b {
+    transform: rotate(-90deg) translate(10px);
+    transform-origin: 150%;
+  }
+
+  .outer {
+    position: absolute;
+    border-radius: 50% 0 50% 50%;
+    left: 80px;
+    top: 110px;
+  }
+  .inner {
+    transform: rotate(45deg);
+    border-radius: 50% 0 50% 50%;
+    width: 80px;
+    height: 80px;
+    background: #254241;
+  }
+  body {
+    margin: 0;
+    background: #f3ac3c;
+  }
+</style>

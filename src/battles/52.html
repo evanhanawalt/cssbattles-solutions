@@ -1,0 +1,82 @@
+<div class="person p1"></div>
+<div class="person p2"></div>
+<div class="person p3"></div>
+<div class="person p4"></div>
+<div class="person p5"></div>
+<div class="person p6"></div>
+<div class="person p7"></div>
+<div class="y1"></div>
+<div class="y2"></div>
+<div class="y3"></div>
+<style>
+  body {
+    background: #6592cf;
+    margin: 0;
+  }
+  div {
+    position: absolute;
+  }
+  .y1 {
+    width: 40px;
+    height: 40px;
+    background: #eeb850;
+    border-radius: 100%;
+    bottom: 140px;
+    left: 30px;
+  }
+  .y2 {
+    width: 40px;
+    height: 40px;
+    background: #eeb850;
+    border-radius: 100%;
+    bottom: 140px;
+    left: 120px;
+  }
+  .y3 {
+    width: 60px;
+    height: 60px;
+    background: #eeb850;
+    border-radius: 100%;
+    bottom: 140px;
+    left: 65px;
+  }
+  .person {
+    z-index: 1;
+    position: absolute;
+    height: 50px;
+    width: 10px;
+    background: #243d83;
+    bottom: 110px;
+  }
+  .person::before {
+    z-index: 1;
+    content: " ";
+    transform: translate(-5px, -50%);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: #243d83;
+  }
+  .p1 {
+    left: 45px;
+  }
+  .p2 {
+    left: 90px;
+  }
+  .p3 {
+    left: 135px;
+  }
+  .p4 {
+    left: 210px;
+  }
+  .p5 {
+    left: 255px;
+  }
+  .p6 {
+    left: 300px;
+  }
+  .p7 {
+    left: 345px;
+  }
+</style>

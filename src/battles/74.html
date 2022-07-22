@@ -1,0 +1,103 @@
+<div class="body"></div>
+<div class="body"></div>
+<div class="body"></div>
+<div class="body"></div>
+<div class="body"></div>
+<div class="body"></div>
+<div class="head"></div>
+<div class="eye"></div>
+<div class="eye eye-b"></div>
+<style>
+  body {
+    margin: 0;
+    background: #191919;
+  }
+  div {
+    position: absolute;
+  }
+  .body::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    border: 5px solid #e08027;
+    width: 100%;
+    height: 100%;
+  }
+  .body:nth-child(odd)::after {
+    border-top: none;
+    border-radius: 0 0 50px 50px;
+  }
+  .body:nth-child(odd) {
+    width: 40px;
+    height: 70px;
+    border: 5px solid #e08027;
+    padding: 0 10px 10px;
+    border-top: none;
+    border-radius: 0 0 50px 50px;
+  }
+  .body:nth-child(even)::after {
+    border-bottom: none;
+    border-radius: 50px 50px 0 0;
+  }
+  .body:nth-child(even) {
+    width: 40px;
+    height: 170px;
+    border: 5px solid #e08027;
+    padding: 10px 10px 0;
+    border-bottom: none;
+    border-radius: 50px 50px 0 0;
+  }
+  .body:nth-child(1) {
+    top: 75px;
+    left: -35px;
+  }
+  .body:nth-child(2) {
+    top: 40px;
+    left: 15px;
+    height: 50px;
+  }
+  .body:nth-child(3) {
+    bottom: 40px;
+    left: 65px;
+    height: 140px;
+  }
+  .body:nth-child(4) {
+    top: 40px;
+    left: 115px;
+  }
+  .body:nth-child(5) {
+    bottom: 40px;
+    left: 165px;
+  }
+  .body:nth-child(6) {
+    top: 140px;
+    left: 215px;
+    height: 50px;
+    border-radius: 35px 0 0 0;
+    border-right: none;
+  }
+  .body:nth-child(6)::after {
+    border-radius: 20px 0 0 0;
+    border-right: none;
+  }
+  .head {
+    transform: translateY(-50%);
+    background: #e08027;
+    width: 50px;
+    height: 30px;
+    top: 50%;
+    left: 265px;
+    border-radius: 15px 20px 20px 15px;
+  }
+  .eye {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #191919;
+    top: 137px;
+    right: 95px;
+  }
+  .eye-b {
+    top: 153px;
+  }
+</style>

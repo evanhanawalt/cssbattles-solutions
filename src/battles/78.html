@@ -1,0 +1,79 @@
+<div class="g1"></div>
+<div class="g2"></div>
+<div class="bridge"></div>
+<div class="neck"></div>
+<div class="head">
+  <div class="head2"></div>
+  <div class="head3"></div>
+</div>
+<style>
+  body {
+    margin: 0;
+    background: #f3ac3c;
+  }
+  div {
+    position: absolute;
+  }
+  .head2 {
+    width: 20px;
+    height: 4px;
+    background: #1a4341;
+    border-radius: 5px;
+    left: 10px;
+    top: 8px;
+  }
+  .head3 {
+    width: 20px;
+    height: 4px;
+    background: #1a4341;
+    border-radius: 5px;
+    left: 10px;
+    bottom: 8px;
+  }
+  .head {
+    transform: translateY(-50%);
+    top: 50%;
+    left: 315px;
+    height: 30px;
+    width: 40px;
+    background: #998235;
+    border-radius: 10px;
+  }
+  .neck {
+    z-index: -1;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 20px;
+    background: #1a4341;
+  }
+  .bridge {
+    transform: translateY(-50%);
+    top: 50%;
+    left: 85px;
+    width: 10px;
+    height: 40px;
+    background: #1a4341;
+    border-radius: 10px;
+  }
+  .g1 {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background: #998235;
+    top: 90px;
+    left: 45px;
+  }
+  .g2 {
+    transform: translateY(-50%);
+    top: 50%;
+    left: 140px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 5px solid #f3ac3c;
+    outline: 25px solid #998235;
+    background: #1a4341;
+  }
+</style>

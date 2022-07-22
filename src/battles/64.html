@@ -1,0 +1,61 @@
+<div class="back"></div>
+<div class="middle"></div>
+<div class="smile"></div>
+<div class="cheekl"></div>
+<div class="cheekr"></div>
+
+<style>
+  body {
+    margin: 0;
+    background: #191919;
+  }
+  div {
+    position: absolute;
+  }
+  .back {
+    z-index: -2;
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 160px;
+    background: #824b20;
+    top: 50%;
+    left: 50%;
+    border-radius: 100%;
+  }
+  .middle {
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background: #e08027;
+    top: 50%;
+    left: 50%;
+    border-radius: 100%;
+  }
+  .smile {
+    transform: translateX(-50%);
+    left: 50%;
+    width: 80px;
+    height: 40px;
+    top: 50%;
+    border-radius: 0 0 60px 60px;
+    border: 20px solid #fff58f;
+    border-top: none;
+  }
+  .cheekl {
+    width: 20px;
+    height: 10px;
+    background: #fff58f;
+    border-radius: 10px 10px 0 0;
+    bottom: 50%;
+    left: 140px;
+  }
+  .cheekr {
+    width: 20px;
+    height: 10px;
+    background: #fff58f;
+    border-radius: 10px 10px 0 0;
+    bottom: 50%;
+    right: 140px;
+  }
+</style>

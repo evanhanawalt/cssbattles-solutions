@@ -1,0 +1,48 @@
+<div class="center">
+  <div class="blue"></div>
+  <div class="line1"></div>
+  <div class="line2"></div>
+</div>
+<style>
+  body {
+    background: #f3ac3c;
+    margin: 0;
+  }
+  div {
+    position: absolute;
+  }
+  .center {
+    background: #998235;
+    width: 160px;
+    height: 160px;
+    transform-origin: 50% 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    left: 198px;
+    top: 150px;
+  }
+  .blue {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    background: #1a4341;
+    border: 35px solid #f3ac3c;
+  }
+  .line1 {
+    width: 30px;
+    height: 40px;
+    background: #f3ac3c;
+    transform: translateX(-50%);
+    left: 50%;
+    top: -1px;
+  }
+  .line2 {
+    width: 40px;
+    height: 30px;
+    background: #f3ac3c;
+    transform: translateY(-50%);
+    top: 50%;
+    left: -1px;
+  }
+</style>

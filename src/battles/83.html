@@ -1,0 +1,51 @@
+<div class="yellow"></div>
+<div class="diamond"></div>
+<div class="tube1"></div>
+<div class="tube2"></div>
+<style>
+  body {
+    margin: 0;
+    background: #243d83;
+  }
+  div {
+    position: absolute;
+  }
+  .tube1 {
+    z-index: -2;
+    width: 220px;
+    height: 100px;
+    background: #6592cf;
+    border-radius: 50px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    left: 50%;
+    top: 50%;
+  }
+  .tube2 {
+    z-index: -2;
+    width: 220px;
+    height: 100px;
+    background: #6592cf;
+    border-radius: 50px;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    left: 50%;
+    top: 50%;
+  }
+  .diamond {
+    z-index: -1;
+    background: #243d83;
+    width: 120px;
+    height: 120px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    left: 50%;
+    top: 50%;
+  }
+  .yellow {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: #eeb850;
+  }
+</style>

@@ -1,0 +1,53 @@
+<div class="window">
+  <div class="l"></div>
+  <div class="r"></div>
+  <div class="sun"></div>
+</div>
+<style>
+  body {
+    background: #191919;
+    margin: 0;
+  }
+  div {
+    position: absolute;
+  }
+  .window {
+    width: 150px;
+    height: 200px;
+    background: #f2ad43;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 100px 100px 26px 26px;
+    overflow: hidden;
+  }
+  .l {
+    z-index: 2;
+    background: #e08027;
+    transform: translate(-50%, -50%);
+    top: 100%;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+  }
+  .r {
+    z-index: 3;
+    background: #824b20;
+    transform: translate(-50%, -50%);
+    top: 100%;
+    left: 100%;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+  }
+  .sun {
+    z-index: 1;
+    background: #fff58f;
+    height: 60px;
+    width: 60px;
+    transform: translate(-50%);
+    top: 90px;
+    left: 50%;
+    border-radius: 100%;
+  }
+</style>

@@ -1,0 +1,66 @@
+<div class="f1"></div>
+<div class="f2"></div>
+<div class="f3"></div>
+<div class="f4"></div>
+<div class="stem"></div>
+<div class="bump"></div>
+<style>
+  body {
+    margin: 0;
+    background: #191919;
+  }
+  div {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+  .f1 {
+    z-index: 100;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: #4f77ff;
+    top: 35px;
+    border: 10px solid #191919;
+  }
+  .f2 {
+    z-index: 90;
+    background: #4f77ff;
+    width: 100px;
+    height: 30px;
+    top: 55px;
+    border-radius: 15px 15px 35px 35px;
+    border: 10px solid #191919;
+  }
+  .f3 {
+    z-index: 80;
+    background: #4f77ff;
+    width: 140px;
+    height: 30px;
+    border: 10px solid #191919;
+    top: 75px;
+    border-radius: 15px 15px 35px 35px;
+  }
+  .f4 {
+    background: #4f77ff;
+    width: 100px;
+    height: 50px;
+    top: 115px;
+    border-radius: 0 0 50px 50px;
+  }
+  .stem {
+    width: 20px;
+    height: 75px;
+    background: #f9e492;
+    border-radius: 0 0 20px 20px;
+    bottom: 45px;
+  }
+  .bump {
+    z-index: -10;
+    background: #f9e492;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    top: 145px;
+  }
+</style>

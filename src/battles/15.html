@@ -1,0 +1,43 @@
+<div class="right"></div>
+<div class="left">
+  <div class="under"></div>
+</div>
+
+<style>
+  .under {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 100px;
+    background: #09042a;
+    border-radius: 100%;
+    overflow: hidden;
+  }
+  .left {
+    z-index: 10;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 75px;
+    width: 150px;
+    height: 150px;
+    background: #7b3f61;
+    border-radius: 100%;
+    overflow: hidden;
+  }
+  .right {
+    z-index: -1;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: 75px;
+    width: 150px;
+    height: 150px;
+    background: #e78481;
+    border-radius: 100%;
+  }
+  body {
+    margin: 0;
+    background: #09042a;
+  }
+</style>

@@ -1,0 +1,61 @@
+<div class="flame"></div>
+<div class="candle"></div>
+<div class="top-candle"></div>
+<div class="top-candle2"></div>
+<div class="bottom-candle"></div>
+<style>
+  body {
+    margin: 0;
+    background: #14313e;
+  }
+  div {
+    position: absolute;
+  }
+  .flame {
+    z-index: 5;
+    left: 50%;
+    width: 30px;
+    height: 50px;
+    background: #f3ac3c;
+    top: 60px;
+    border-radius: 30px 0 30px 0;
+  }
+  .candle {
+    transform: translateX(-50%);
+    left: 50%;
+    top: 125px;
+    width: 80px;
+    height: 100px;
+    background: #ba3e46;
+  }
+  .top-candle {
+    z-index: 4;
+    transform: translatex(-50%);
+    bottom: 170px;
+    left: 50%;
+    background: #14313e;
+    width: 60px;
+    height: 30px;
+    border-radius: 100%;
+  }
+  .top-candle2 {
+    transform: translatex(-50%);
+    bottom: 160px;
+    left: 50%;
+    z-index: 3;
+    width: 80px;
+    height: 30px;
+    background: #f3695a;
+    border-radius: 100%;
+  }
+  .bottom-candle {
+    transform: translatex(-50%);
+    bottom: 60px;
+    left: 50%;
+    z-index: 3;
+    width: 80px;
+    height: 30px;
+    background: #ba3e46;
+    border-radius: 100%;
+  }
+</style>

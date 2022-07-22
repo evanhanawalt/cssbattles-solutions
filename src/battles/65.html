@@ -1,0 +1,64 @@
+<div class="left">
+  <div class="triangle"></div>
+  <div class="head"></div>
+</div>
+<div class="a xy"></div>
+<div class="b xy"></div>
+<div class="c xy"></div>
+<style>
+  body {
+    background: #191919;
+    margin: 0;
+  }
+  div {
+    position: absolute;
+  }
+  .xy {
+    z-index: -100;
+    transform: translate(-50%, -50%);
+    left: 225px;
+    top: 50%;
+    border-radius: 100%;
+  }
+  .a {
+    width: 80px;
+    height: 80px;
+    border: 10px solid #5dbcf9;
+  }
+  .b {
+    width: 130px;
+    height: 130px;
+    border: 10px solid #5dbcf9;
+  }
+  .c {
+    width: 180px;
+    height: 180px;
+    border: 10px solid #5dbcf9;
+  }
+  .triangle {
+    width: 0px;
+    height: 0px;
+    right: 0px;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-right: 100px solid #5dbcf9;
+    transform: translateY(-50%);
+    top: 50%;
+  }
+  .head {
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    background: #5dbcf9;
+    border-radius: 10px 0 0 10px;
+  }
+  .left {
+    width: 50%;
+    height: 100%;
+    background: #191919;
+    overflow: hidden;
+    border-right: 25px solid #191919;
+  }
+</style>

@@ -1,0 +1,72 @@
+<div class="center">
+  <div class="dot"></div>
+  <div class="l-line"></div>
+  <div class="l-line a"></div>
+  <div class="l-line b"></div>
+  <div class="mid"></div>
+  <div class="mid a1"></div>
+  <div class="mid b1"></div>
+  <div class="r-line"></div>
+  <div class="r-line a"></div>
+  <div class="r-line b"></div>
+</div>
+<style>
+  body {
+    margin: 0;
+    background: #4f77ff;
+  }
+  div {
+    position: absolute;
+  }
+  .center {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    background: #191919;
+    border-radius: 100%;
+    overflow: hidden;
+  }
+  .dot {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: #f9e492;
+    top: 40px;
+    left: 40px;
+  }
+  .l-line {
+    width: 50%;
+    height: 16px;
+    background: #f9e492;
+    top: 122px;
+  }
+  .mid {
+    width: 20px;
+    height: 16px;
+    background: #d6b73f;
+    left: 50%;
+    top: 116px;
+    transform: skew(0, -33deg);
+  }
+  .r-line {
+    height: 16px;
+    right: 0;
+    width: 80px;
+    background: #f9e492;
+    top: 109px;
+  }
+  .a {
+    transform: translateY(26px);
+  }
+  .b {
+    transform: translateY(52px);
+  }
+  .a1 {
+    transform: skew(0, -33deg) translateY(26px);
+  }
+  .b1 {
+    transform: skew(0, -33deg) translateY(52px);
+  }
+</style>

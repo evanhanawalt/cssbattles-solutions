@@ -1,0 +1,76 @@
+<div class="jingle j1"></div>
+<div class="jingle j2"></div>
+<div class="jingle j3"></div>
+<div class="jingle j4"></div>
+<div class="jingle j5"></div>
+<div class="center">
+  <div class="bottom"></div>
+</div>
+<div class="dumb-cover"></div>
+<style>
+  body {
+    margin: 0;
+    background: #6592cf;
+  }
+  div {
+    position: absolute;
+  }
+  .dumb-cover {
+    background: #6592cf;
+    width: 400px;
+    height: 100px;
+    top: 235px;
+  }
+  .bottom {
+    z-index: 10;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border-bottom: none;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 125px;
+    border: 10px solid #243d83;
+    background: #6592cf;
+  }
+  .center {
+    background: #6592cf;
+    transform: translateX(-50%);
+    top: 75px;
+    left: 50%;
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    overflow: hidden;
+    box-shadow: inset 0 0 0 10px #243d83;
+  }
+  .jingle {
+    z-index: 1;
+    background: #243d83;
+    height: 10px;
+    width: 10px;
+    border: 10px solid #6592cf;
+    outline: 10px solid #243d83;
+    border-radius: 100%;
+  }
+  .j1 {
+    left: 115px;
+    top: 175px;
+  }
+  .j2 {
+    left: 115px;
+    top: 105px;
+  }
+  .j3 {
+    left: 185px;
+    top: 65px;
+  }
+  .j4 {
+    left: 255px;
+    top: 105px;
+  }
+  .j5 {
+    left: 255px;
+    top: 175px;
+  }
+</style>

@@ -1,0 +1,53 @@
+<div class="middle c"></div>
+<div class="dark-red c"></div>
+<div class="light-red"></div>
+<div class="white"></div>
+
+<style>
+  body {
+    margin: 0;
+    background: #6cb3a9;
+  }
+  div {
+    position: absolute;
+  }
+  .c {
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+  }
+  .dark-red {
+    z-index: 9;
+    width: 180px;
+    height: 20px;
+    background: #781728;
+    border-left: 50px solid #6cb3a9;
+    border-right: 50px solid #6cb3a9;
+  }
+  .middle {
+    z-index: 10;
+    width: 50px;
+    height: 50px;
+    background: #f6df96;
+    border-radius: 100%;
+    border: 10px solid #781728;
+  }
+  .light-red {
+    transform: translateX(-50%);
+    left: 50%;
+    background: #d25b70;
+    width: 200px;
+    height: 100px;
+    border-radius: 99px 99px 0 0;
+    bottom: 50%;
+  }
+  .white {
+    transform: translateX(-50%);
+    left: 50%;
+    background: #ffffff;
+    width: 200px;
+    height: 100px;
+    border-radius: 0 0 99px 99px;
+    top: 50%;
+  }
+</style>

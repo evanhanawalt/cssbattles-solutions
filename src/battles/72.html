@@ -1,0 +1,116 @@
+<div class="head">
+  <div class="eye"></div>
+  <div class="eye r"></div>
+</div>
+<div class="top"></div>
+<div class="background"></div>
+<div class="top-left"></div>
+<div class="top-right"></div>
+<div class="left"></div>
+<div class="right"></div>
+<div class="bottom-left"></div>
+<div class="bottom-right"></div>
+<div class="bottom"></div>
+<style>
+  body {
+    background: #243d83;
+    margin: 0;
+  }
+  div {
+    position: absolute;
+    background: #6592cf;
+  }
+
+  .bottom-left {
+    height: 50px;
+    width: 60px;
+    transform: rotate(45deg);
+    border-radius: 100%;
+    left: 130px;
+    top: 165px;
+  }
+  .bottom-right {
+    height: 50px;
+    width: 60px;
+    transform: rotate(-45deg);
+    border-radius: 100%;
+    right: 130px;
+    top: 165px;
+  }
+  .bottom {
+    height: 50px;
+    width: 60px;
+    border-radius: 100%;
+    left: 170px;
+    top: 185px;
+  }
+  .left {
+    height: 60px;
+    width: 50px;
+    border-radius: 100%;
+    left: 115px;
+    top: 120px;
+  }
+  .right {
+    height: 60px;
+    width: 50px;
+    border-radius: 100%;
+    right: 115px;
+    top: 120px;
+  }
+  .top-right {
+    width: 60px;
+    height: 50px;
+    border-radius: 100%;
+    transform: rotate(45deg);
+    top: 85px;
+    right: 130px;
+    z-index: 1;
+  }
+  .top-left {
+    width: 60px;
+    height: 50px;
+    border-radius: 100%;
+    transform: rotate(-45deg);
+    top: 85px;
+    left: 130px;
+    z-index: 1;
+  }
+  .background {
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+  }
+  .top {
+    z-index: 10;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 50px;
+    border-radius: 100%;
+    top: 65px;
+    left: 50%;
+  }
+  .head {
+    z-index: 1;
+    width: 60px;
+    height: 65px;
+    top: 110px;
+    left: 170px;
+    border-radius: 0 0 30px 30px;
+    background: #243d83;
+  }
+  .eye {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    left: 15px;
+    top: 20px;
+  }
+  .r {
+    left: 35px;
+  }
+</style>

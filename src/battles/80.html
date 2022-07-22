@@ -1,0 +1,82 @@
+<div class="outline">
+  <div class="key"></div>
+  <div class="key"></div>
+  <div class="key"></div>
+  <div class="key"></div>
+  <div class="key"></div>
+  <div class="key"></div>
+  <div class="key"></div>
+</div>
+<style>
+  body {
+    background: #998235;
+  }
+  .outline {
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 180px;
+    height: 100px;
+    background: #191919;
+  }
+  div {
+    position: absolute;
+  }
+  .key {
+    width: 20px;
+    height: 70px;
+    background: #ffffff;
+    border-radius: 5px;
+    bottom: 5px;
+  }
+  .key:nth-child(1) {
+    left: 5px;
+  }
+  .key:nth-child(2) {
+    left: 30px;
+  }
+  .key:nth-child(3) {
+    left: 55px;
+  }
+  .key:nth-child(4) {
+    left: 80px;
+  }
+  .key:nth-child(5) {
+    left: 105px;
+  }
+  .key:nth-child(6) {
+    left: 130px;
+  }
+  .key:nth-child(7) {
+    left: 155px;
+  }
+  .key:nth-child(1)::before,
+  .key:nth-child(2)::before,
+  .key:nth-child(4)::before,
+  .key:nth-child(5)::before,
+  .key:nth-child(6)::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    background: #191919;
+    width: 15px;
+    height: 35px;
+    left: 15px;
+  }
+  .key:nth-child(2)::after,
+  .key:nth-child(3)::after,
+  .key:nth-child(7)::after,
+  .key:nth-child(6)::after,
+  .key:nth-child(5)::after {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    background: #191919;
+    width: 15px;
+    height: 35px;
+    right: 15px;
+  }
+</style>

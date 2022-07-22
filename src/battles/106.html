@@ -1,0 +1,46 @@
+<div class="stem"></div>
+<div class="half"></div>
+<div class="half left"></div>
+<div class="bite"></div>
+
+<style>
+  body {
+    margin: 0;
+    background: #000;
+  }
+  div {
+    position: absolute;
+  }
+  .bite {
+    background: #000000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 100px;
+    left: 101px;
+    box-shadow: 0 3px, -10px 40px 0 10px;
+  }
+
+  .half {
+    top: 100px;
+    width: 120px;
+    height: 100px;
+    border-radius: 100%;
+    background: #d4392d;
+    left: 170px;
+    transform: rotate(-60deg);
+  }
+  .left {
+    overflow: hidden;
+    left: 110px;
+    transform: rotate(60deg);
+  }
+  .stem {
+    height: 50px;
+    width: 10px;
+    transform: translateX(-50%);
+    left: 50%;
+    background: #d4392d;
+    top: 70px;
+  }
+</style>

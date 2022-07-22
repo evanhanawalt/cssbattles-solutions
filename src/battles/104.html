@@ -1,0 +1,104 @@
+<div class="container">
+  <div class="inner">
+    <div class="grill g1"></div>
+    <div class="grill g2"></div>
+    <div class="grill g3"></div>
+    <div class="grill g4"></div>
+    <div class="dot d1"></div>
+    <div class="dot d2"></div>
+    <div class="dot d3"></div>
+    <div class="dot d4"></div>
+    <div class="dot d5"></div>
+    <div class="dot d6"></div>
+    <div class="shine"></div>
+  </div>
+</div>
+<style>
+  body {
+    margin: 0;
+    background: #000;
+  }
+  div {
+    position: absolute;
+  }
+  .container {
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 240px;
+    height: 120px;
+    background: #37385a;
+    border-radius: 20px;
+  }
+  .inner {
+    display: block;
+    width: 200px;
+    height: 80px;
+    background: #9897ae;
+    z-index: -2;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .shine {
+    z-index: -1;
+    transform: rotate(15deg);
+    background: #c0c3db;
+    top: -15px;
+    left: 70px;
+    width: 50px;
+    height: 150px;
+  }
+  .grill {
+    transform: translateY(-50%);
+    width: 10px;
+    height: 50px;
+    top: 50%;
+    background: #000000;
+    border-radius: 10px;
+  }
+  .g1 {
+    left: 125px;
+  }
+  .g2 {
+    left: 105px;
+  }
+  .g3 {
+    left: 85px;
+  }
+  .g4 {
+    left: 65px;
+  }
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #000000;
+  }
+  .d1 {
+    left: 15px;
+    top: 15px;
+  }
+  .d2 {
+    left: 15px;
+    top: 35px;
+  }
+  .d3 {
+    left: 15px;
+    top: 55px;
+  }
+  .d4 {
+    right: 15px;
+    top: 15px;
+  }
+  .d5 {
+    right: 15px;
+    top: 35px;
+  }
+  .d6 {
+    right: 15px;
+    top: 55px;
+  }
+</style>

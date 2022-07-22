@@ -1,0 +1,56 @@
+<div class="container b">
+  <div class="yellow"></div>
+  <div class="container m">
+    <div class="yellow"></div>
+    <div class="container">
+      <div class="yellow"></div>
+    </div>
+  </div>
+</div>
+<div class="left"></div>
+<div class="right"></div>
+
+<style>
+  body {
+    background: #1a4341;
+    margin: 0;
+  }
+  .container {
+    overflow: hidden;
+    border-top: 20px solid #1a4341;
+    border-bottom: 20px solid #1a4341;
+    height: 20px;
+    width: 300px;
+  }
+  .b {
+    height: 100%;
+  }
+  .m {
+    height: 100px;
+  }
+  div {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+  .yellow {
+    width: 200px;
+    height: 180px;
+    background: #f3ac3c;
+  }
+  .left {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    left: 0;
+    background: #1a4341;
+  }
+  .right {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    left: 400px;
+    background: #1a4341;
+  }
+</style>

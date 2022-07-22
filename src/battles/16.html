@@ -1,0 +1,42 @@
+<div class="eye"></div>
+<div class="donut"></div>
+<div class="lid"></div>
+<style>
+  .donut {
+    z-index: -5;
+    position: absolute;
+    background: #0b2429;
+    transform: translateY(-50%) translateX(-50%);
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+  }
+  .lid {
+    z-index: -10;
+    position: absolute;
+    background: #998235;
+    transform: translateY(-50%) translateX(-50%) rotate(45deg);
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50% 0 50% 0;
+  }
+  .eye {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 45px solid #f3ac3c;
+    transform: translateY(-50%) translateX(-50%);
+    top: 50%;
+    left: 50%;
+  }
+
+  body {
+    margin: 0;
+    background: #0b2429;
+  }
+</style>

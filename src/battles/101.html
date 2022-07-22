@@ -1,0 +1,61 @@
+<div class="container">
+  <div class="center"></div>
+  <div class="outer o1"></div>
+  <div class="outer o2"></div>
+  <div class="outer o3"></div>
+</div>
+<style>
+  body {
+    background: #161616;
+    margin: 0;
+  }
+  div {
+    position: absolute;
+  }
+  .container {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background: #a22015;
+    border-radius: 100%;
+    width: 190px;
+    height: 190px;
+    border: 5px solid #000000;
+    overflow: hidden;
+  }
+  .center {
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    background: #000000;
+    border-radius: 100%;
+    outline: 10px solid #e96a23;
+    box-shadow: 0 0 0 25px #000000;
+    background-clip: padding-box;
+  }
+  .outer {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 15px solid;
+  }
+  .o1 {
+    left: 45px;
+    bottom: -40px;
+  }
+  .o2 {
+    left: 45px;
+    bottom: -40px;
+    transform-origin: center -35px;
+    transform: rotate(-120deg);
+  }
+  .o3 {
+    left: 45px;
+    bottom: -40px;
+    transform-origin: center -35px;
+    transform: rotate(120deg);
+  }
+</style>
