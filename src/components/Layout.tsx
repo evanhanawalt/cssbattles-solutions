@@ -6,7 +6,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
       <nav className="bg-neutral-100 border-gray-200 py-5 rounded">
-        <ul className="container flex flex-wrap gap-10 items-center mx-auto justify-start">
+        <ul className="pl-8 container flex flex-wrap gap-10 items-center mx-auto justify-start">
           <li>
             <Link href="/">
               <a
@@ -34,7 +34,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           <li>
             <a
               className="text-lg text-neutral-700 hover:text-blue-700 underline underline-offset-4 "
-              href="https://github.com"
+              href="https://github.com/evanhanawalt/cssbattles-solutions"
             >
               Github
             </a>
