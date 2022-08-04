@@ -1,6 +1,6 @@
-# [CSSBattle Solutions]
+# [CSSBattle Solutions](http://cssbattles-solutions.vercel.app/)
 
-<a href="https://cssbattle.dev/">CSSBattle.dev</a> is a coding game that challenges players to visually match a target image using HTML and CSS.
+[CSSBattle.dev](https://cssbattle.dev/) is a coding game that challenges players to visually match a target image using HTML and CSS.
 
 Points are awarded based on exactly matching the target image, as well
 as minimizing the number of characters used to solve each problem.
